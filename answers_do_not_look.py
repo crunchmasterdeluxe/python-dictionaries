@@ -32,7 +32,7 @@ def add_element(d):
 
     # put your code here
     #####################
-
+    d['metachlorians'] = "20000"
     #####################
 
     return d
@@ -44,10 +44,9 @@ def get_length(d):
         (how many items does it contain?)
     """
 
-    d_length = None
     # put your code here
     #####################
-
+    d_length = len(d)
     #####################
 
     return d_length
@@ -61,7 +60,8 @@ def loop_keys(d):
     key_list = []
     # put your code here
     #####################
-
+    for i in d:
+        key_list.append(i)
     #####################
 
     return key_list
@@ -76,7 +76,8 @@ def loop_elements(d):
     element_list = []
     # put your code here
     #####################
-
+    for i in d:
+        element_list.append("{} -> {}".format(i, d[i]))
     #####################
 
     return element_list
