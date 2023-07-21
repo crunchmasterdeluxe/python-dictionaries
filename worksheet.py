@@ -21,26 +21,28 @@ def get_dictionary():
     "url": "https://swapi.dev/api/people/1/"
 }
 
-# define a dictionary
-d = get_dictionary()
+def manipulate_dictionary():
 
-# 1. Without looping, print the dictionary's items (key-value pairs)
-
-
-# 2. Without looping, print the dictionary's keys
-
-
-# 3. Without looping, print the dictionary's values
-
-
-# 4. Add a new item to the dictionary
-
-
-# 5. Loop through the dictionary and print out the keys
-
-
-# 6. As you loop through the dictionary, print the key and its value
-
-
-# 7. Print the length of the dictionary (how many items does it contain?)
+  # define a dictionary
+  d = get_dictionary()
+  
+  # 1. Without looping, print the dictionary's items (key-value pairs)
+  
+  
+  # 2. Without looping, print the dictionary's keys
+  
+  
+  # 3. Without looping, print the dictionary's values
+  
+  
+  # 4. Add a new item to the dictionary
+  
+  
+  # 5. Loop through the dictionary and print out the keys
+  
+  
+  # 6. As you loop through the dictionary, print the key and its value
+  
+  
+  # 7. Print the length of the dictionary (how many items does it contain?)
 
